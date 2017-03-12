@@ -5,7 +5,7 @@
 (function () {
   'use strict';
 
-  angular.module('BlurAdmin.pages.components.tree', [])
+ angular.module('BlurAdmin.pages.components.tree', [])
     .config(routeConfig)
     .config(function(){
       $.jstree.defaults.core.themes.url = true;
@@ -18,7 +18,7 @@
         .state('components.tree', {
           url: '/tree',
           templateUrl: 'app/pages/components/tree/tree.html',
-          title: 'Tree View',
+          title: 'Form Builder',
           sidebarMeta: {
             order: 200,
           },
@@ -26,3 +26,5 @@
   }
 
 })();
+
+
