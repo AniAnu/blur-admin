@@ -16,4 +16,6 @@ angular.module('BlurAdmin', [
 
   'BlurAdmin.theme',
   'BlurAdmin.pages'
+ 
 ]);
+ 
